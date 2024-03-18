@@ -1,8 +1,12 @@
-🍌 Things JavaScript Developers Should Know, but Probably Don't
+# Basic to Advance for JavaScript Developers 🍌 
 This is a special spot I've created where I'm unpacking essential things about JavaScript. It's mainly a personal project for me to get a better grip on the ins and outs of JavaScript, but I figured it might be useful for others too.
 
-📚 What's It All About?
-In this guide, I'm tackling various topics that I've found crucial or tricky in JavaScript. While I'm learning and making sense of these concepts, I thought it'd be great to share them. So, even though this is primarily for my own learning, I hope you can pick up a thing or two as well!
+<br>
+
+<h2> 📚 What's It All About? </h2>
+In this guide, I'm tackling various topics from basic to advance in JavaScript. While I'm learning and making sense of these concepts, I thought it'd be great to share them. So, even though this is primarily for my own learning, I hope you can pick up a thing or two as well!
+
+<br>
 
 🎯 Why I'm Doing This
 I created this list to solidify my understanding of JavaScript. By breaking down and explaining these concepts, I'm hoping to cement my knowledge and perhaps help others along the way. Think of this as my personal study notes that you're welcome to learn from too.
