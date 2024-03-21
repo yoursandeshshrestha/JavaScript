@@ -11,8 +11,8 @@ const regularUser = {
     email: "some@gmail.com",
     fullname: {
         userfullname: {
-            firstname: "hitesh",
-            lastname: "choudhary"
+            firstname: "Sandesh",
+            lastname: "Shrestha"
         }
     }
 }
@@ -56,9 +56,9 @@ users[1].email
 
 
 const course = {
-    coursename: "js in hindi",
+    coursename: "w3-school",
     price: "999",
-    courseInstructor: "hitesh"
+    courseInstructor: "random"
 }
 
 // course.courseInstructor
