@@ -32,3 +32,26 @@ const shoppingCart = [
 const priceToPay = shoppingCart.reduce((acc, item) => acc + item.price, 0)
 
 console.log(priceToPay);
+
+
+const bookCart = [
+    {
+        itemName: "History",
+        price: 200
+    },
+    {
+        itemName: "Science",
+        price: 999
+    },
+    {
+        itemName: "English",
+        price: 200
+    },
+    {
+        itemName: "Geography",
+        price: 12999
+    },
+]
+
+const totalPrice = bookCart.reduce( (acc, item) => acc + item.price, 0)
+console.log(totalPrice);
