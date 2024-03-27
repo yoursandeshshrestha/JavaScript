@@ -1,0 +1,1 @@
+gconsole.log("Getting started with event");
