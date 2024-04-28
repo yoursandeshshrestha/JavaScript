@@ -1,0 +1,36 @@
+Features of JavaScript
+
+According to a recent survey conducted by Stack Overflow, JavaScript is the most popular language on earth. 
+With advances in browser technology and JavaScript having moved into the server with Node.js and other frameworks, JavaScript is capable of so much more. Here are a few things that we can do with JavaScript: 
+
+    JavaScript was created in the first place for DOM manipulation. Earlier websites were mostly static, after JS was created dynamic Web sites were made.
+    Functions in JS are objects. They may have properties and methods just like other objects. They can be passed as arguments in other functions.
+    Can handle date and time.
+    Performs Form Validation although the forms are created using HTML.
+    No compiler is needed.
+
+// Features 
+
+    1. High-level Language: JavaScript is a high-level programming language, meaning it is designed to be human-readable and easy to understand.
+
+    2. Interpreted: JavaScript is an interpreted language, meaning that code is executed line by line, without the need for a compilation step. Browsers have built-in JavaScript engines to interpret and execute JavaScript code.
+
+    3. Dynamic Typing: JavaScript is dynamically typed, allowing variables to hold values of any data type without requiring explicit declaration of the data type.
+
+    4. Prototype-based Object-Oriented: JavaScript uses prototype-based inheritance rather than class-based inheritance. Objects can inherit properties and methods directly from other objects.
+
+    5. Functions as First-class Citizens: In JavaScript, functions are treated as first-class citizens, meaning they can be assigned to variables, passed as arguments to other functions, returned from functions, and stored in data structures.
+
+    6. Event-driven and Asynchronous: JavaScript is designed to handle events triggered by user interactions or other sources asynchronously, allowing for non-blocking operations. This is crucial for building responsive and interactive web applications.
+
+    7. Cross-platform Compatibility: JavaScript is supported by all major web browsers and can run on various platforms, including desktop, mobile, and server environments.
+
+    8. Client-Side Scripting: JavaScript is primarily used for client-side scripting, enabling dynamic content manipulation, form validation, and interaction with web APIs within web browsers.
+
+    9. Server-Side Development: With the introduction of environments like Node.js, JavaScript can also be used for server-side development, allowing developers to build scalable and efficient web servers and backend services.
+
+    10. Rich Ecosystem: JavaScript has a vast ecosystem of libraries and frameworks, such as React, Angular, and Vue.js for front-end development, as well as Express.js, Nest.js, and Hapi.js for backend development, which streamline development and provide additional functionality.
+
+    11. Modularity: JavaScript supports modularity through mechanisms like ES6 modules and CommonJS, allowing developers to organize code into reusable and maintainable modules.
+
+    12. Support for Functional Programming: JavaScript supports functional programming paradigms, allowing developers to write concise, expressive, and composable code using features like higher-order functions, closures, and lambda expressions.
