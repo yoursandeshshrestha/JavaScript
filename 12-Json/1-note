@@ -1,0 +1,89 @@
+Link : [https://www.geeksforgeeks.org/javascript-json/]
+
+What is JSON?
+JSON or JavaScript Object Notation is a format for structuring data.
+What is it used for?
+
+Like XML, it is one of the ways of formatting the data. Such a format of data is used by web applications to communicate with each other.
+Why JSON? 
+
+The fact that whenever we declare a variable and assign a value to it, it’s not the variable that holds the value but rather the variable just holds an address in the memory where the initialized value is stored. Further explaining, take for example:
+
+let age=21;
+
+when we use age, it gets replaced with 21, but that does not mean that age contains 21, rather what it means is that the variable age contains the address of the memory location where 21 is stored.
+
+You might think what is the problem, how is JSON helpful?
+
+Well, yes, you are right! it is fine here till now but imagine you have to transfer the data and use it somewhere else (like an API maybe), so how will we share this? One way could be to send your computer’s entire memory along with the address of the locations that are required, as you might have understood now this is not at all a good way to do it, it is risky to send your entire computer memory. Here comes JSON to the rescue, JSON serializes the data and converts it into a human-readable and understandable format, which also makes it transferal and to be able to communicate.
+Characteristics of JSON
+
+    It is Human-readable and writable.
+    It is a lightweight text-based data interchange format which means, it is simpler to read and write when compared to XML.
+    It is widely used as a data storage and communication format on the web.
+    Though it is derived from a subset of JavaScript, it is Language-independent. Thus, the code for generating and parsing JSON data can be written in any other programming language.
+
+JSON Syntax Rules
+
+JSON syntax is derived from JavaScript object notation syntax:
+
+    Data is in name/value pairs Example:
+
+{ "name":"Thanos" }
+
+    Types of Values: Array: An associative array of values. Boolean: True or false. Number: An integer. Object: An associative array of key/value pairs. String: Several plain text characters which usually form a word.
+
+    Data is separated by commas Example:
+
+{ "name":"Thanos", "Occupation":"Destroying half of humanity" }
+
+    Curly braces hold objects Example:
+
+let person={ "name":"Thanos", "Occupation":"Destroying half of humanity" }
+
+    Square brackets hold arrays Example:
+
+let person={ "name":"Thanos", "Occupation":"Destroying half of humanity", "powers": ["Can destroy anything with snap of his fingers", "Damage resistance", "Superhuman reflexes"] }
+
+Examples: This example shows the JSON text.
+
+{
+    "Avengers": [
+        {
+            "Name": "Tony stark",
+            "also known as": "Iron man",
+            "Abilities": [
+                "Genius",
+                "Billionaire",
+                "Playboy",
+                "Philanthropist"
+            ]
+        },
+        {
+            "Name": "Peter parker",
+            "also known as": "Spider man",
+            "Abilities": [
+                "Spider web",
+                "Spidy sense"
+            ]
+        }
+    ]
+}
+Convert a JSON Text to a JavaScript Object
+
+We will see how to convert a JSON text into a JavaScript Object.
+
+Example: We will be using the JSON.parse() method to convert the JSON text to a JavaScript Object.
+
+let text = '{"model":[' +
+    '{"carName":"Baleno","brandName":"Maruti" },' +
+    '{"carName":"Aura","brandName":"Hyndai" },' +
+    '{"carName":"Nexon","brandName":"Tata" }]}';
+ 
+const cars = JSON.parse(text);
+console.log("The car name is: " + cars.model[2].carName + 
+    " of brand: " + cars.model[2].brandName);
+Output
+
+The car name is: Nexon of brand: Tata
+
