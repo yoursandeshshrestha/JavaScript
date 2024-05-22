@@ -1,0 +1,30 @@
+// element selectors = Methods used to target and manipulate HTML elements 
+//  They allow you to select one or multiple HTML elements
+//    from the DOM (Document Object Model)
+
+// 1. document.getElementById()        // Return  - ELEMENT OR NULL
+// 2. document.getElementsClassName()  // Return  - HTML COLLECTION
+// 3. document.getElementsByTagName()  // Return  - HTML COLLECTION
+// 4. document.querySelector()         // Return  - FIRST ELEMENT OR NULL
+// 5. document.querySelectorAll()      // Return  - NODELIST
+
+// ---------- getElementById() ----------
+const myHeading = document.getElementById("my-heading");
+
+// ---------- getElementsByClassName() ----------
+const fruits = document.getElementsByClassName("fruits");
+
+// ---------- getElementsByTagName() ----------
+const h4Elements = document.getElementsByTagName("h4");
+
+// ---------- querySelector() ----------
+const element = document.querySelector("li");
+
+// ---------- querySelectorAll() ----------
+const foods = document.querySelectorAll("li");
+
+
+// using loop for HTML collection
+Array.from(fruits).forEach(fruit => {
+    fruit.style.backgroundColor = "yellow";
+});
