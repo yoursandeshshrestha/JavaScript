@@ -1,0 +1,15 @@
+In JavaScript, events are actions or occurrences that happen in the browser or document. These events can be triggered 
+by the user's interaction with the web page, such as clicking a button, hovering over an element, typing on the 
+keyboard, or by the browser itself, like when the page finishes loading.
+
+Here's a breakdown of how events work in JavaScript:
+
+    Event Types: There are various types of events in JavaScript. Some common ones include:
+        1. Click: This event occurs when a user clicks on an element.
+        2. Mouseover/Mouseout: These events occur when the mouse pointer enters or leaves an element.
+        3. Keydown/Keypress/Keyup: These events occur when a key on the keyboard is pressed, while it is being pressed, and when it is released, respectively.
+        4. Load: This event occurs when a page or an element finishes loading.
+
+Event Handlers: Event handlers are functions that are executed when an event occurs. You can assign event handlers to HTML elements either in the HTML code or dynamically using JavaScript.
+
+Event Listener: An event listener is a function that listens for a specific event to occur on a particular element. Event listeners are preferred over inline event handlers because they allow for better separation of concerns and make the code more maintainable.
