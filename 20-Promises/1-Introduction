@@ -1,0 +1,4 @@
+Promises in JavaScript are objects representing the eventual completion or 
+failure of an asynchronous operation. They provide a cleaner alternative to 
+traditional callback-based approaches for handling asynchronous code. Promises 
+simplify the process of chaining asynchronous operations and handling errors.
